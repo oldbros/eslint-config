@@ -1,5 +1,5 @@
 {
-  "name": "@oldbros/eslintconfig",
+  "name": "eslint-config-oldbros",
   "version": "1.0.0",
   "description": "Oldbros eslint configuration",
   "type": "module",

@@ -1,4 +1,4 @@
-# @oldbros/eslintconfig
+# eslint-config-oldbros
 
 **Oldbros** eslint configuration
 
