@@ -1,0 +1,38 @@
+{
+  "name": "@oldbros/eslintconfig",
+  "version": "1.0.0",
+  "description": "Oldbros eslint configuration",
+  "type": "module",
+  "main": ".eslintrc.json",
+  "scripts": {
+    "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\"",
+    "test": "npm run -s lint && node test/eslint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oldbros/eslintconfig.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": {
+    "name": "Georg Oldenburger",
+    "email": "georgoldenb@gmail.com",
+    "url": "https://github.com/georgolden"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oldbros/eslintconfig/issues"
+  },
+  "homepage": "https://github.com/oldbros/eslintconfig#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "prettier": "^2.8.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
