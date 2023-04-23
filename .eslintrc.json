@@ -8,7 +8,12 @@
     "no-unmodified-loop-condition": ["error"],
     "no-useless-concat": ["error"],
     "curly": ["error", "multi-line", "consistent"],
-    "consistent-return": ["error"],
+    "consistent-return": [
+      "error",
+      {
+        "treatUndefinedAsUnspecified": true
+      }
+    ],
     "no-return-await": ["error"],
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "always"],
@@ -42,7 +47,7 @@
     ],
     "block-spacing": ["error", "always"],
     "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
-    "camelcase": ["error"],
+    "camelcase": "warn",
     "comma-dangle": ["error", "always-multiline"],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "comma-style": ["error", "last"],
@@ -61,10 +66,10 @@
       }
     ],
     "linebreak-style": ["error", "unix"],
-    "max-len": ["error", { "code": 80, "ignoreUrls": true }],
+    "max-len": ["error", { "code": 120, "ignoreUrls": true }],
     "max-nested-callbacks": ["error", { "max": 5 }],
     "new-cap": [
-      "error",
+      "warn",
       { "newIsCap": true, "capIsNew": true, "properties": true }
     ],
     "new-parens": ["error"],
