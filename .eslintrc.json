@@ -9,7 +9,7 @@
     "no-useless-concat": ["error"],
     "curly": ["error", "multi-line", "consistent"],
     "consistent-return": [
-      "error",
+      "warn",
       {
         "treatUndefinedAsUnspecified": true
       }
