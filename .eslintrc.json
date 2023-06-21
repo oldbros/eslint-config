@@ -104,7 +104,8 @@
       {
         "returnAssign": false,
         "nestedBinaryExpressions": false,
-        "enforceForArrowConditionals": false
+        "enforceForArrowConditionals": false,
+        "allowParensAfterCommentPattern": "@type"
       }
     ],
     "no-shadow-restricted-names": ["error"],
